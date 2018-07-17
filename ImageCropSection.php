@@ -118,7 +118,7 @@ class ImageCropSection extends Widget
         $assetManager = new AssetManager();
         $assetManager->forceCopy = YII_ENV_DEV ? true : false;
         $assetManager->linkAssets = true;
-        $assetManager->publish('@app/widgets/MrCropImageSection/assets');
+        $assetManager->publish('@backend/web/assets');
         parent::init();
 
     }
